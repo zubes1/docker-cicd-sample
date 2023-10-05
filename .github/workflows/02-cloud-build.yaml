@@ -27,10 +27,10 @@ jobs:
           driver: cloud
           use: true
           install: true
-          endpoint: <org>/<builder-amd64>
+          endpoint: collab-bu_linux-amd64
           platforms: linux/amd64
           append: |
-                - endpoint: <org>/<builder-arm64>
+                - endpoint: collab-bu_linux-amd64
                   driver: cloud
                   platforms: linux/arm64
           version: v0.11.2 # 
