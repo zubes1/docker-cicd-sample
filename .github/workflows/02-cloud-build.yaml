@@ -33,7 +33,7 @@ jobs:
                 - endpoint: <org>/<builder-arm64>
                   driver: cloud
                   platforms: linux/arm64
-          version: v0.11.2-desktop.1 # Confirm with Kevin
+          version: v0.11.2 # 
 
       - name: Docker build
         uses: docker/build-push-action@v5
